@@ -20,12 +20,12 @@ const MyRoutings= () => {
    <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/skills' element={<SkillPage/>}/>
-    <Route path='/projects' element={<ProjectPage/>}/>
+    {/* <Route path='/projects' element={<ProjectPage/>}/> */}
     <Route path='/experiences' element={<Experiences/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/blogs/1' element={<Blog />}/>
     <Route path='/blogs/:id' element={<Blog />}/>
-    <Route path='/gallery' element={<Gallery />}/>
+    {/* <Route path='/gallery' element={<Gallery />}/> */}
     <Route path='/contact' element={<Contact />}/>
    </Routes>
    <Footer/>

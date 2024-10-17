@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import videoSrc from '../assets/vid1.mp4'
+import imag from '../assets/lati.png'
 const Body = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = `../../Binaya Limbu.pdf`;
-    link.download = 'Binaya Limbu CV.pdf';
+    link.href = `../../LilaKumariLimbuResume.pdf`;
+    link.download = 'LilaKumariLimbuResume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -28,12 +29,10 @@ useEffect(() => {
 }, []);
   return (
     <div className="relative h-[60vh] lg:h-screen w-full overflow-hidden">
-      <video
+      <img
         className="absolute top-0 left-0 w-full h-full object-fill lg:object-cover"
-        src={videoSrc}
-        autoPlay
-        loop
-        muted
+        src={imag}
+        
       />
       <div className="relative z-10 flex items-center  h-full bg-black bg-opacity-40">
         <div className='mx-4 md:mx-12 lg:mx-24 lg:py-4 '>

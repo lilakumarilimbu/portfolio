@@ -1,6 +1,6 @@
 import React from 'react'
 import banner from '../assets/limbu.jpg'
-import profile from '../assets/about.png'
+import profile from '../assets/lati.png'
 import { FaUniversity } from "react-icons/fa";
 const About = () => {
   return (
@@ -23,11 +23,11 @@ const About = () => {
                 <div className='flex flex-col gap-3'>
                     <h1 className='text-black font-bold text-2xl my-6'>Education</h1>
                     <div className='flex flex-row gap-2 items-center'>
-                    <FaUniversity color='black'/> <p className='text-gray-900'>Orchid International College,</p > <p className='text-warm-orange font-bold text-lg font-mono'>BSc.CSIT</p>
+                    <FaUniversity color='black'/> <p className='text-gray-900'>Orchid International College,</p > <p className='text-warm-orange font-bold text-lg font-mono'>BCA</p>
 
                     </div>
                     <div className='flex flex-row gap-2 items-center'>
-                    <FaUniversity color='black'/> <p className='text-gray-900'>Nepal Mega College,</p > <p className='text-warm-orange font-bold text-lg font-mono'>+2 Science</p>
+                    <FaUniversity color='black'/> <p className='text-gray-900'>Goldengate International College,</p > <p className='text-warm-orange font-bold text-lg font-mono'>+2 Science</p>
 
                     </div>
                     <div className='flex flex-row gap-2 items-center'>

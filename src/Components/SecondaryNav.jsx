@@ -7,18 +7,18 @@ const  SecondaryNav = () => {
         <div className='hidden md:flex md:flex-row md:justify-between md:items-center py-2 '>
             <div className='flex flex-row gap-2 items-center'>
                 <FaPhone color='green'/>
-                <p>+977-9843555471</p>
+                <p>+977-9765564732</p>
             </div>
             <div className='flex flex-row gap-2 items-center justify-center '>
             <MdOutlineAttachEmail color='red'/>
-                <p>iambinayalimbu@gmail.com</p>
+                <p>lilakumarilimbu848@gmail.com</p>
             </div>
             <div className='flex flex-row gap-4 items-center justify-center'>
                 <p>Find me: </p>
-                 <a href="https://www.facebook.com/binayakdm" target='_blank'> <FaFacebook color='blue'/></a>
-                 <a href="https://github.com/binayakedem/" target='_blank'><FaGithubSquare color='black'/></a>
+                 <a href="https://www.facebook.com/lilakumari.limbu.1" target='_blank'> <FaFacebook color='blue'/></a>
+                 <a href="https://github.com/lilakumarilimbu/" target='_blank'><FaGithubSquare color='black'/></a>
                  <a href="https://www.instagram.com/binayalimbuz/" target='_blank'><FaInstagram color='red'/></a>
-                <a href="https://www.linkedin.com/in/binayalimbu/" target='_blank'> <FaLinkedin color='blue'/></a>
+                <a href="https://www.linkedin.com/in/lilakumarilimbu/" target='_blank'> <FaLinkedin color='blue'/></a>
                
             </div>
 

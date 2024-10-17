@@ -22,18 +22,14 @@ const Footer = () => {
             <h1 className='text-warm-orange font-bold md:md:text-2xl text-lg my-1'>Find Me</h1>
             <div className='flex flex-col gap-2'>
               <div className='flex flex-row items-center gap-1'>
-            <a href="https://www.facebook.com/binayakdm" target='_blank'> <FaFacebook size={24} color='white'/></a><a href="https://www.facebook.com/binayakdm" target='_blank' className='text-light-gray'> Facebook</a>
+            <a href="https://www.facebook.com/lilakumari.limbu.1" target='_blank'> <FaFacebook size={24} color='white'/></a><a href="https://www.facebook.com/binayakdm" target='_blank' className='text-light-gray'> Facebook</a>
               </div>
               <div className='flex flex-row items-center gap-1'>
-                 <a href="https://github.com/binayakedem/" target='_blank'><FaGithubSquare size={24} color='white'/></a><a href="https://github.com/binayakedem/" target='_blank' className='text-light-gray'> Github</a>
-              </div>
-              <div className='flex flex-row items-center gap-1'>
-
-                 <a href="https://www.instagram.com/binayalimbuz/" target='_blank'><FaInstagram size={24} color='white'/></a><a href="https://www.instagram.com/binayalimbuz/" target='_blank' className='text-light-gray'> Instagram</a>
+                 <a href="https://github.com/lilakumarilimbu/" target='_blank'><FaGithubSquare size={24} color='white'/></a><a href="https://github.com/binayakedem/" target='_blank' className='text-light-gray'> Github</a>
               </div>
               <div className='flex flex-row items-center gap-1'>
 
-                <a href="https://www.linkedin.com/in/binayalimbu/" target='_blank'> <FaLinkedin size={24} color='white'/></a><a href="https://www.linkedin.com/in/binayalimbu/" target='_blank' className='text-light-gray'> Linkedin</a>
+                <a href="https://www.linkedin.com/in/lilakumarilimbu/" target='_blank'> <FaLinkedin size={24} color='white'/></a><a href="https://www.linkedin.com/in/binayalimbu/" target='_blank' className='text-light-gray'> Linkedin</a>
               </div>
 
             </div>
@@ -42,19 +38,11 @@ const Footer = () => {
             <h1 className='text-warm-orange font-bold md:text-2xl text-lg my-1'>Contact Me</h1>
             <div className='flex flex-row gap-2 items-center'>
                 <FaPhone color='green'/>
-                <p>+977-9843555471</p>
-            </div>
-            <div className='flex flex-row gap-2 items-center'>
-                <FaPhone color='green'/>
-                <p>+977-9803588079</p>
+                <p>+977-9765564732</p>
             </div>
             <div className='flex flex-row gap-2 items-center my-1 '>
             <MdOutlineAttachEmail color='red'/>
-                <p>iambinayalimbu@gmail.com</p>
-            </div>
-            <div className='flex flex-row gap-2 items-center my-1 '>
-            <MdOutlineAttachEmail color='red'/>
-                <p>binayalimbu300@gmail.com</p>
+                <p>lilakumarilimbu848@gmail.com</p>
             </div>
           </div>
 
